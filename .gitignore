@@ -1,0 +1,4 @@
+node_modules
+.env
+data/main_server_data.json
+data/scan_data.json

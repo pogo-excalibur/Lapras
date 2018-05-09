@@ -1,0 +1,17 @@
+{
+  "TestAccount1": {
+    "team": 1,
+    "level": 40,
+    "lastSeen": "2018-01-01 00:00:00"
+  },
+  "TestAccount2": {
+    "team": 2,
+    "level": 40,
+    "lastSeen": "2018-01-01 00:00:00"
+  },
+  "TestAccount3": {
+    "team": 3,
+    "level": 40,
+    "lastSeen": "2018-01-01 00:00:00"
+  }
+}

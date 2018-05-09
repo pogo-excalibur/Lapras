@@ -1,0 +1,45 @@
+{
+  "name": "lapras",
+  "description": "A Discord bot for team Mystic",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pogo-excalibur/lapras",
+  "author": {
+    "name": "pogo-excalibur",
+    "email": "pogo-excalibur@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pogo-excalibur/lapras"
+  },
+  "bugs": {
+    "url": "https://github.com/pogo-excalibur/lapras/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "lapras": "node index.js",
+    "lint": "grunt lint",
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "discord.js": "git+https://github.com/discordjs/discord.js.git",
+    "dotenv": "^5.0.0",
+    "erlpack": "github:discordapp/erlpack",
+    "grunt": "^1.0.2",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "uws": "^9.14.0",
+    "zlib-sync": "^0.1.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-nodeunit": "git+https://github.com/arandomoracle/grunt-contrib-nodeunit.git",
+    "gruntify-eslint": "^4.0.0"
+  },
+  "keywords": []
+}
